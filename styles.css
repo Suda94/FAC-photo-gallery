@@ -1,0 +1,281 @@
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #b04848;
+  color: rgb(246, 246, 246);
+  background-color: rgb(35, 51, 76);
+}
+
+.Expanding-texting {
+  padding: 14px;
+  margin-left: 100px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(154, 143, 163);
+  font-size: large;
+  cursor: grabbing;
+}
+
+.header {
+  font-size: 60px;
+  padding: 20px;
+  text-align: center;
+  color: rgba(0, 254, 174, 0.456);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  margin: 15px;
+  border-radius: 15px;
+}
+.card-image {
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card h2 {
+  padding: 10px;
+}
+.card p {
+  padding: 10px;
+  font-size: 15px;
+}
+.card a {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 25px 50px;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgb(52, 114, 73);
+  cursor: grab;
+  transform: scale(1.03);
+  transition: all 1 ease;
+}
+/*Images of the the gallery in the front.*/
+.photo-1 {
+  background-image: url(Vaadhoo-Island-Maldives.webp);
+}
+
+.photo-2 {
+  background-image: url(image.jpg);
+}
+.photo-3 {
+  background-image: url(181010131059-australia-best-beaches-cossies-beach-cocos3.jpg);
+}
+
+.photo-4 {
+  background-image: url(https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.photo-5 {
+  background-image: url(https://www.muchbetteradventures.com/magazine/content/images/size/w1600/2021/08/Rara-Lake-Trekking-in-mustang-region.jpg);
+}
+
+.photo-6 {
+  background-image: url(https://www.muchbetteradventures.com/magazine/content/images/size/w1600/2021/08/Trekking-in-Mustang-Region-4.jpg);
+}
+
+.photo-7 {
+  background-image: url(https://www.muchbetteradventures.com/magazine/content/images/size/w1600/2021/08/GettyImages-587542596--1-.jpg);
+}
+
+.photo-8 {
+  background-image: url(https://www.muchbetteradventures.com/magazine/content/images/size/w1600/2021/08/GettyImages-1076080836--1-.jpg);
+}
+.desc {
+  font-size: 20px;
+}
+
+.desc-more {
+  display: none;
+}
+
+.read-more-btn {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc.show-more .desc-more {
+  display: inline;
+}
+
+.desc.show-more .dots {
+  display: none;
+}
+.desc-2 {
+  font-size: 100px;
+}
+
+.desc-more-2 {
+  display: none;
+}
+
+.read-more-btn-2 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-2.show-more-2 .desc-more-2 {
+  display: inline;
+}
+
+.desc-2.show-more-2 .dots-2 {
+  display: none;
+}
+
+.desc-more-3 {
+  display: none;
+}
+
+.read-more-btn-3 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-3.show-more-3 .desc-more-3 {
+  display: inline;
+}
+
+.desc-3.show-more-3.dots-3 {
+  display: none;
+}
+
+.desc-more-4 {
+  display: none;
+}
+
+.read-more-btn-4 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-4.show-more-4 .desc-more-4 {
+  display: inline;
+}
+
+.desc-4.show-more-4.dots-4 {
+  display: none;
+}
+
+.desc-more-5 {
+  display: none;
+}
+
+.read-more-btn-5 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-5.show-more-5 .desc-more-5 {
+  display: inline;
+}
+
+.desc-5.show-more-5.dots-5 {
+  display: none;
+}
+.desc-more-6 {
+  display: none;
+}
+
+.read-more-btn-6 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-6.show-more-6 .desc-more-6 {
+  display: inline;
+}
+
+.desc-6.show-more-6.dots-6 {
+  display: none;
+}
+
+.desc-more-7 {
+  display: none;
+}
+
+.read-more-btn-7 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-7.show-more-7 .desc-more-7 {
+  display: inline;
+}
+
+.desc-7.show-more-7.dots-7 {
+  display: none;
+}
+
+.desc-more-8 {
+  display: none;
+}
+
+.read-more-btn-8 {
+  padding: 5px 20px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.desc-8.show-more-8 .desc-more-8 {
+  display: inline;
+}
+
+.desc-8.show-more-8.dots-8 {
+  display: none;
+}
