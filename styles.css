@@ -48,7 +48,7 @@ body {
   background-color: rgb(255, 255, 255);
   height: 400px;
   margin-bottom: 20px;
-  background-size: cover;
+  background-size: ;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
@@ -79,23 +79,39 @@ body {
 /*Images of the the gallery in the front.*/
 .photo-1 {
   background-image: url(tribute1.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
 }
 
 .photo-2 {
   background-image: url(Comment-box.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
 }
 
 .photo-3 {
   background-image: url(fruit-shop.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
 }
 
 .photo-4 {
   background-image: url(web-portfolio.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
 }
 
 .photo-5 {
   background-image: url(features.svg);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
 }
+
 .desc {
   font-size: 20px;
 }
