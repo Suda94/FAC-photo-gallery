@@ -11,6 +11,7 @@ readMoreBtn.addEventListener("click", (e) => {
   }
 });
 
+
 //Scenery 2
 const readMoreBtn2 = document.querySelector(".read-more-btn-2");
 const desc2 = document.querySelector(".desc-2");
@@ -63,3 +64,4 @@ readMoreBtn5.addEventListener("click", (e) => {
   }
 });
 
+console.log(typeof readMoreBtn);
